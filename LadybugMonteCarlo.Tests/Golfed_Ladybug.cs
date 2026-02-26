@@ -45,7 +45,9 @@ public class Golfed_Ladybug
     private static int[] MakeRuns(int seed, int cases)
     {
         var random = new Random(seed);
-        return Enumerable.Range(0, cases).Select(_ => MakeClockRun(random)).ToArray();
+        return Enumerable.Range(0, cases)
+            .Select(_ => MakeClockRun(random))
+            .ToArray();
     }
 
     private static int MakeClockRun(Random random)
