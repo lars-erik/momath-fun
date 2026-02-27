@@ -32,6 +32,15 @@ namespace LadybugCppLlmPortOfHumanCSharp
                 Assert::AreEqual(1.0 / 11.0, frequency, 0.0055);
         }
 
+        TEST_METHOD(Procedural_Frequency_Histogram_Mill)
+        {
+            auto results = MakeRuns(1, 1000000);
+            auto result = FromResults(results);
+
+            for (const auto& [hour, frequency] : result.Frequencies)
+                Assert::AreEqual(1.0 / 11.0, frequency, 0.0055);
+        }
+
     private:
         static void logResults(const std::vector<int>& results)
         {
