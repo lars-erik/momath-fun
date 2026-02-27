@@ -4,6 +4,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="Feb.Bacteria.CS.Tests/Feb.Bacteria.CS.Tests.csproj" />
   <Project Path="LadybugCpp.LlmPortOfHumanCSharp/LadybugCpp.LlmPortOfHumanCSharp.vcxproj" />
   <Project Path="LadybugMonteCarlo.Tests/LadybugMonteCarlo.Tests.csproj" />
 </Solution>
