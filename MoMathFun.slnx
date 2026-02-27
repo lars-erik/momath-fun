@@ -1,3 +1,9 @@
 <Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="LadybugCpp.LlmPortOfHumanCSharp/LadybugCpp.LlmPortOfHumanCSharp.vcxproj" />
   <Project Path="LadybugMonteCarlo.Tests/LadybugMonteCarlo.Tests.csproj" />
 </Solution>
