@@ -56,9 +56,13 @@ public class BugSimulator(int seed)
 public record DistributionDataset
 {
     public Dictionary<int, int> Distribution { get; }
+
     public IReadOnlyDictionary<int, double> Frequencies { get; }
+    
     public int Cases { get; }
+    
     public IReadOnlyCollection<int> Values { get; }
+    
     public double AverageFrequency { get; }
 
     public DistributionDataset(List<ClockRun> runs)

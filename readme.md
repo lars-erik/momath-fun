@@ -14,3 +14,9 @@ The LLM from the LinkedIn thread apparently made one _interesting_ solution in 3
 I did the same thing twice, plus ported it to C++ using an LLM - in the same time.  
 I dare suggest that my solution(s) are also more compelling than the LLM version.  
 Even the golfed one is more readable.
+
+- [C# Tests for the first OOP attempt](./LadybugMonteCarlo.Tests/Monte_Carlo_Ladybug.cs)
+- [C# OOP model for the first attempt](./LadybugMonteCarlo.Tests/OopLadybug.cs)
+- [C# golf attempt](./LadybugMonteCarlo.Tests/Golfed_Ladybug.cs)
+- [C++ golf port tests](./LadybugCpp.LlmPortOfHumanCSharp/Golfed_Ladybug_Tests.cpp)
+- [C++ golf port API](./LadybugCpp.LlmPortOfHumanCSharp/GolfedLadybug.ixx)
